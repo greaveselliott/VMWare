@@ -1,0 +1,89 @@
+.background-cloud {
+  background: url('images/bkgd-clouds.jpg') repeat 0px 0px;
+}
+
+.enter-here-header {
+  position: relative;
+  background: white;
+  display: inline-block;
+  margin-bottom: 25px;
+  &:before, &:after {
+    content: ' ';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    display: block;
+    background: white;
+  }
+  &:before {
+    top:-10px;
+  }
+  &:after {
+    bottom: -10px;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+    padding: 5px 7px;
+  }
+}
+
+.enter-here-header-2 {
+  position: relative;
+  background: white;
+  display: inline-block;
+  margin-bottom: 19px;
+  &:before, &:after {
+    content: ' ';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    display: block;
+    background: white;
+  }
+  &:before {
+    top:-4px;
+  }
+  &:after {
+    bottom: -4px;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+    padding: 5px 7px;
+  }
+}
+
+.climbing {
+  width: 299px;
+  height: 191px;
+  background: url('images/climbing.png') no-repeat;
+  z-index: -10;
+}
+
+.gform_button.button {
+  border-radius: 0px !important;
+  background-color: transparent !important;
+  border: solid 5px white !important;
+  background-image: none !important;
+  -webkit-box-sizing: border-box !important;
+  -moz-box-sizing: border-box !important;
+  box-sizing: border-box !important;
+  color: white !important;
+  cursor: pointer !important;
+  display: inline-block !important;
+  @extend .gotham-round-medium;
+  height: 40px !important;
+  overflow: hidden !important;
+  padding: 0px;
+  position: relative !important;
+  text-shadow: none !important;
+  max-width: 100% !important;
+  -webkit-transition: all .23s ease;
+  -moz-transition: all .23s ease;
+  -o-transition: all .23s ease;
+  transition: all .23s ease;
+  width: 100%;
+  &:hover, &:focus {
+    background-color: white !important;
+    color: $ips-green !important;
+  }
+}
