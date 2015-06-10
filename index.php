@@ -26,7 +26,7 @@
                     <div class="col-sm-12">
                         <div class="padding-top padding-bottom">
                         <a href="http://vmwareforyou.co.uk/hybridcloud/" title="Visit VMWare - for you UK">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/vmware-logo.png" alt="VMWare" class="display-block float-left" style="margin-top: 7px;"></a><span class="h3 padding-left-2 padding-right-2 text-white">|</span><h3 class="display-inline-block text-green gotham-round-light line-height-h3 margin-0">vCloud® Air™</h3>
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/vmware-logo.png" alt="VMWare" class="display-block float-left" style="margin-top: 7px;"></a><span class="h3 padding-left-2 padding-right-2 text-white">|</span><h3 class="display-inline-block text-green gotham-round-light line-height-h3 margin-0">Find out more about vCloud® Air™</h3>
                         </div>
                     </div>
                 </div>
@@ -92,10 +92,11 @@
             <!-- The Video -->
             <div class="row">
                 <div class="col-sm-12 margin-bottom">
+                    <h3 class="margin-top-0">On top of Mount Kilimanjaro</h3>
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/J6dnC7IAKDU" frameborder="0" allowfullscreen></iframe>
                     </div>
-                    <div class="padding-top"></div>
+                    <h3>Whilst Skateboarding</h3>
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/BSjsjsWwm2g" frameborder="0" allowfullscreen></iframe>
                     </div>

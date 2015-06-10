@@ -43111,3 +43111,9 @@ code {
 .twitter-feed-widget #twitter-widget-0 {
   display: none;
 }
+
+/* line 2, sass/_wordpress-gravity-plugin.scss */
+.gform_wrapper input[type="file"] {
+  width: auto !important;
+  display: inline-block;
+}
